@@ -1,9 +1,11 @@
 # config valid for current version and patch releases of Capistrano
 lock "~> 3.11.2"
+# ssh_options[:forward_agent] = true
+# default_run_options[:pty] = true  
 
 set :application, "chatter"
-set :repo_url, "git@198.143.177.167:git/chatter.git"
-
+set :repo_url, "git@198.143.177.167:/home/git/chatter.git"
+set :scm, "git"
 set :deploy_to, '/home/deploy/chatter'
 
 append :linked_files, "config/database.yml", "config/secrets.yml"
