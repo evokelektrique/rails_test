@@ -5,7 +5,7 @@ lock "~> 3.11.2"
 
 set :application, "chatter"
 # set :repo_url, "git@198.143.177.167:/home/git/chatter.git"
-set :repo_url, "https://github.com/zer0-two/rails_test"
+set :repo_url, "https://github.com/zer0-two/rails_test.git"
 # set :scm, "git"
 set :deploy_to, '/home/deploy/chatter'
 
