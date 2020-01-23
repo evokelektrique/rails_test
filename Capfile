@@ -3,9 +3,10 @@ require "capistrano/setup"
 
 # Include default deployment tasks
 require "capistrano/deploy"
-
+# require 'capistrano/rbenv'
+require 'capistrano/rbenv'
 require 'capistrano/rails'
-require 'capistrano/passenger'
+
 # require 'capistrano/rvm'
 # set :rvm_type, :user
 # set :rvm_ruby_version, '2.6.5'

@@ -8,6 +8,7 @@ set :application, "chatter"
 set :repo_url, "https://github.com/zer0-two/rails_test.git"
 # set :scm, "git"
 set :deploy_to, '/home/deploy/chatter'
+# set :rbenv_ruby
 
 append :linked_files, "config/database.yml", "config/secrets.yml"
 append :linked_dirs, "log", "tmp/pids", "tmp/cache", "tmp/sockets", "vendor/bundle", "public/system", "public/uploads"
