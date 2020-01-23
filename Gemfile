@@ -2,14 +2,14 @@ source 'http://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.6.5'
-gem 'bcrypt', platforms: :ruby   
-gem 'rbnacl', '< 5.0', :require => false                                                                                                                                                                
-gem 'rbnacl-libsodium', :require => false                                                                                                                                                               
-gem 'bcrypt_pbkdf', '< 2.0', :require => false                                                                                                                                                      
+# gem 'bcrypt', platforms: :ruby   
+# gem 'rbnacl', '< 5.0', :require => false                                                                                                                                                                
+# gem 'rbnacl-libsodium', :require => false                                                                                                                                                               
+# gem 'bcrypt_pbkdf', '< 2.0', :require => false                                                                                                                                                      
 gem 'capistrano', '~> 3.7', '>= 3.7.1'
 gem 'capistrano-rails', '~> 1.2'
 gem 'capistrano-passenger', '~> 0.2.0'
-gem 'capistrano-rvm'
+# gem 'capistrano-rvm'
 # Add this if you're using rbenv
 # gem 'capistrano-rbenv', '~> 2.1'
 
