@@ -7,7 +7,6 @@ ruby '2.6.5'
 # gem 'rbnacl-libsodium', :require => false                                                                                                                                                               
 # gem 'bcrypt_pbkdf', '< 2.0', :require => false                                                                                                                                                      
 
-
 # gem 'capistrano', '~> 3.7', '>= 3.7.1'
 # gem 'capistrano-rails', '~> 1.2'
 # gem 'capistrano-passenger', '~> 0.2.0'
@@ -43,7 +42,7 @@ gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.7'
 # Use Redis adapter to run Action Cable in production
-# gem 'redis', '~> 4.0'
+gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
