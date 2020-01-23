@@ -35,3 +35,4 @@
 yarn-debug.log*
 .yarn-integrity
 "config/database.yml\nconfig/secrets.yml" 
+"config/database.yml\nconfig/secrets.yml" 
